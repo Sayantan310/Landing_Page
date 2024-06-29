@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #121212;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.start-button {
+  background-color: white;
+  color: #121212;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #202020;
+  color: white;
+}
+
+.text-section {
+  max-width: 50%;
+  text-align: left;
+}
+
+.text-section h1 {
+  font-size: 48px;
+}
+
+.text-section p {
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.register-button {
+  background-color: #ff007f;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.image-section img {
+  border-radius: 10px;
+  width: 300px;
+  height: auto;
+}
