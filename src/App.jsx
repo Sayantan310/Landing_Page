@@ -1,12 +1,13 @@
 import './App.css'
 import Navbar from './Components/Navbar'
+import First_page from '../Pages/First_page'
 
 function App() {
  
 
   return (
     <>
-    <div className='bg-image'/>
+    <First_page/>
     <Navbar/>
     </>
   )
